@@ -1,0 +1,66 @@
+/* nav.navbar{
+    height: 60px;
+    background-color: white;
+} */
+
+body{
+    width: 100%;
+    margin: 0 0 40px; 
+    background-image: url("asanoha-400px.png")
+   
+   /*This should have worked... background-image: url("../images/asanoha-400px.png");*/
+}
+
+.navbar-default{
+    min-height: 60px;
+    background-color: white;
+}
+.navbar-default .navbar-brand {
+    padding-top:17px;
+        font-size: 26px;
+        color: white;
+        background-color: #4aaaa5;
+        height: 60px;
+    }
+
+.navbar-default .navbar-toggle{
+        background-color: #4aaaa5;
+    }
+
+    .navbar-default .navbar-toggle:focus{
+        background-color: #4aaaa5;
+    }
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+a.icon{
+    display: inline-block;
+}
+
+ul.icons li {
+    display: inline-block;
+    width: 80%
+
+}
+
+i.fa{
+    width: 100%;
+    margin: auto;
+}
+
+h2, .panel-default .panel-title{
+    color: #4aaaa5;
+}
+
+p.text-center{
+    padding-top: 15px;
+    font-size: 13px;
+    color: white;
+}
+
+.navbar-fixed-bottom{
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+}
+
