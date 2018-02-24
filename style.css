@@ -6,9 +6,9 @@
 body{
     width: 100%;
     margin: 0 0 40px; 
-    background-image: url("asanoha-400px.png")
-   
-   /*This should have worked... background-image: url("../images/asanoha-400px.png");*/
+    /* background-image: url("asanoha-400px.png"); */
+    background-image: url("assets/images/asanoha-400px.png");
+   /*This should have worked... ;*/
 }
 
 .navbar-default{
@@ -19,9 +19,11 @@ body{
     padding-top:17px;
         font-size: 26px;
         color: white;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
         background-color: #4aaaa5;
         height: 60px;
     }
+
 
 .navbar-default .navbar-toggle{
         background-color: #4aaaa5;
@@ -51,6 +53,7 @@ i.fa{
 
 h2, .panel-default .panel-title{
     color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 p.text-center{
@@ -62,5 +65,37 @@ p.text-center{
 .navbar-fixed-bottom{
     background-color: #666666;
     border-top: 4px solid #4aaaa5;
+}
+.btn-info{
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0;
+}
+
+.caption {
+    width:100%;
+    /* margin-bottom: 10px; */
+    background:#4aaaa5;
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+}
+.image-box{
+    display: inline-block;
+    position: relative;
+}
+
+.caption h4{
+    font-size: 13px;
+    color: white;
+}
+
+.img-responsive{
+object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+object-position: center;
+/* position: absolute; */
 }
 
